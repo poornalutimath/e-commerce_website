@@ -18,6 +18,4 @@ This is a simple e-commerce website built with **Node.js**, **Express.js**, **HT
 - **JavaScript** (For dynamic frontend interactions)
 
 ## How to Run the Project:
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+https://e-commerce-website-clro.onrender.com/login.html
