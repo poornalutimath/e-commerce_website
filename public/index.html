@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script>
+        // Redirect to login if user is not logged in
+        if (!localStorage.getItem("user")) {
+            window.location.href = "login.html";
+        }
+    </script>
+
+    <header>
+        <h1>My E-commerce Store</h1>
+        <nav>
+            <button id="logout-btn">Logout</button>
+        </nav>
+    </header>
+
+    <div class="product-container">
+        <div class="product">
+            <img src="/images/laptop.jpg" alt="Laptop">
+            <h2>Laptop</h2>
+            <p>Price: $700</p>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/images/phone.jpg" alt="Smartphone">
+            <h2>Smartphone</h2>
+            <p>Price: $500</p>
+            <button onclick="addToCart(2)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="/images/headphones.jpg" alt="Headphones">
+            <h2>Headphones</h2>
+            <p>Price: $100</p>
+            <button onclick="addToCart(3)">Add to Cart</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
