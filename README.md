@@ -1,4 +1,3 @@
-# e-commerce_website
 # E-Commerce Website with Login/Sign-up Functionality
 
 This is a simple e-commerce website built with **Node.js**, **Express.js**, **HTML**, **CSS**, and **JavaScript**. The application features user authentication, where users can either **log in** with their credentials or **sign up** if they are new. The project is built to run on a **local server** for development purposes.
